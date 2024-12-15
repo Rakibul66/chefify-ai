@@ -11,8 +11,10 @@ Recipe Finder is an iOS app built with SwiftUI that allows users to search for r
 ## Screenshots
 
 Here are three images of the app interface showing the grid layout of recipe images:
+<img src="https://github.com/Rakibul66/chefify-ai/blob/main/preview/a.png?raw=true" width="600" height="400">
+<img src="https://github.com/Rakibul66/chefify-ai/blob/main/preview/b.png?raw=true" width="600" height="400">
+<img src="https://github.com/Rakibul66/chefify-ai/blob/main/preview/c.png?raw=true" width="600" height="400">
 
-![Image1](https://github.com/Rakibul66/chefify-ai/blob/main/preview/a.png?raw=true)
 
 ## Installation Instructions
 
