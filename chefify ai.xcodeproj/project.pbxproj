@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF912AD82D0C4005000A93CC /* chefify_aiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912AD72D0C4005000A93CC /* chefify_aiApp.swift */; };
+		EF912ADC2D0C4006000A93CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF912ADB2D0C4006000A93CC /* Assets.xcassets */; };
+		EF912ADF2D0C4006000A93CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF912ADE2D0C4006000A93CC /* Preview Assets.xcassets */; };
+		EF912AE92D0C4006000A93CC /* chefify_aiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912AE82D0C4006000A93CC /* chefify_aiTests.swift */; };
+		EF912AF32D0C4006000A93CC /* chefify_aiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912AF22D0C4006000A93CC /* chefify_aiUITests.swift */; };
+		EF912AF52D0C4006000A93CC /* chefify_aiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912AF42D0C4006000A93CC /* chefify_aiUITestsLaunchTests.swift */; };
+		EF912B042D0C41AE000A93CC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912B032D0C41AE000A93CC /* APIService.swift */; };
+		EF912B182D0C4EE2000A93CC /* ImageSearchViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912B172D0C4EE2000A93CC /* ImageSearchViewmodel.swift */; };
+		EF912B1A2D0C4EF9000A93CC /* ImageSearvhView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912B192D0C4EF9000A93CC /* ImageSearvhView.swift */; };
+		EF912B1C2D0C4FFA000A93CC /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912B1B2D0C4FFA000A93CC /* ImageData.swift */; };
+		EF912B202D0C5FFD000A93CC /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF912B1F2D0C5FFD000A93CC /* ResultScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF912AE52D0C4006000A93CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF912ACC2D0C4005000A93CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF912AD32D0C4005000A93CC;
+			remoteInfo = "chefify ai";
+		};
+		EF912AEF2D0C4006000A93CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF912ACC2D0C4005000A93CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF912AD32D0C4005000A93CC;
+			remoteInfo = "chefify ai";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF912AD42D0C4005000A93CC /* chefify ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chefify ai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF912AD72D0C4005000A93CC /* chefify_aiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chefify_aiApp.swift; sourceTree = "<group>"; };
+		EF912ADB2D0C4006000A93CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF912ADE2D0C4006000A93CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF912AE42D0C4006000A93CC /* chefify aiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chefify aiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF912AE82D0C4006000A93CC /* chefify_aiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chefify_aiTests.swift; sourceTree = "<group>"; };
+		EF912AEE2D0C4006000A93CC /* chefify aiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chefify aiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF912AF22D0C4006000A93CC /* chefify_aiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chefify_aiUITests.swift; sourceTree = "<group>"; };
+		EF912AF42D0C4006000A93CC /* chefify_aiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chefify_aiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF912B032D0C41AE000A93CC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		EF912B172D0C4EE2000A93CC /* ImageSearchViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchViewmodel.swift; sourceTree = "<group>"; };
+		EF912B192D0C4EF9000A93CC /* ImageSearvhView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearvhView.swift; sourceTree = "<group>"; };
+		EF912B1B2D0C4FFA000A93CC /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		EF912B1F2D0C5FFD000A93CC /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF912AD12D0C4005000A93CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF912AE12D0C4006000A93CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF912AEB2D0C4006000A93CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF912ACB2D0C4005000A93CC = {
+			isa = PBXGroup;
+			children = (
+				EF912AD62D0C4005000A93CC /* chefify ai */,
+				EF912AE72D0C4006000A93CC /* chefify aiTests */,
+				EF912AF12D0C4006000A93CC /* chefify aiUITests */,
+				EF912AD52D0C4005000A93CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF912AD52D0C4005000A93CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF912AD42D0C4005000A93CC /* chefify ai.app */,
+				EF912AE42D0C4006000A93CC /* chefify aiTests.xctest */,
+				EF912AEE2D0C4006000A93CC /* chefify aiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF912AD62D0C4005000A93CC /* chefify ai */ = {
+			isa = PBXGroup;
+			children = (
+				EF912AD72D0C4005000A93CC /* chefify_aiApp.swift */,
+				EF912B032D0C41AE000A93CC /* APIService.swift */,
+				EF912B172D0C4EE2000A93CC /* ImageSearchViewmodel.swift */,
+				EF912B192D0C4EF9000A93CC /* ImageSearvhView.swift */,
+				EF912B1F2D0C5FFD000A93CC /* ResultScreen.swift */,
+				EF912B1B2D0C4FFA000A93CC /* ImageData.swift */,
+				EF912ADB2D0C4006000A93CC /* Assets.xcassets */,
+				EF912ADD2D0C4006000A93CC /* Preview Content */,
+			);
+			path = "chefify ai";
+			sourceTree = "<group>";
+		};
+		EF912ADD2D0C4006000A93CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF912ADE2D0C4006000A93CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF912AE72D0C4006000A93CC /* chefify aiTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF912AE82D0C4006000A93CC /* chefify_aiTests.swift */,
+			);
+			path = "chefify aiTests";
+			sourceTree = "<group>";
+		};
+		EF912AF12D0C4006000A93CC /* chefify aiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF912AF22D0C4006000A93CC /* chefify_aiUITests.swift */,
+				EF912AF42D0C4006000A93CC /* chefify_aiUITestsLaunchTests.swift */,
+			);
+			path = "chefify aiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF912AD32D0C4005000A93CC /* chefify ai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF912AF82D0C4006000A93CC /* Build configuration list for PBXNativeTarget "chefify ai" */;
+			buildPhases = (
+				EF912AD02D0C4005000A93CC /* Sources */,
+				EF912AD12D0C4005000A93CC /* Frameworks */,
+				EF912AD22D0C4005000A93CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chefify ai";
+			productName = "chefify ai";
+			productReference = EF912AD42D0C4005000A93CC /* chefify ai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF912AE32D0C4006000A93CC /* chefify aiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF912AFB2D0C4006000A93CC /* Build configuration list for PBXNativeTarget "chefify aiTests" */;
+			buildPhases = (
+				EF912AE02D0C4006000A93CC /* Sources */,
+				EF912AE12D0C4006000A93CC /* Frameworks */,
+				EF912AE22D0C4006000A93CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF912AE62D0C4006000A93CC /* PBXTargetDependency */,
+			);
+			name = "chefify aiTests";
+			productName = "chefify aiTests";
+			productReference = EF912AE42D0C4006000A93CC /* chefify aiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF912AED2D0C4006000A93CC /* chefify aiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF912AFE2D0C4006000A93CC /* Build configuration list for PBXNativeTarget "chefify aiUITests" */;
+			buildPhases = (
+				EF912AEA2D0C4006000A93CC /* Sources */,
+				EF912AEB2D0C4006000A93CC /* Frameworks */,
+				EF912AEC2D0C4006000A93CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF912AF02D0C4006000A93CC /* PBXTargetDependency */,
+			);
+			name = "chefify aiUITests";
+			productName = "chefify aiUITests";
+			productReference = EF912AEE2D0C4006000A93CC /* chefify aiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF912ACC2D0C4005000A93CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EF912AD32D0C4005000A93CC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					EF912AE32D0C4006000A93CC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EF912AD32D0C4005000A93CC;
+					};
+					EF912AED2D0C4006000A93CC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EF912AD32D0C4005000A93CC;
+					};
+				};
+			};
+			buildConfigurationList = EF912ACF2D0C4005000A93CC /* Build configuration list for PBXProject "chefify ai" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF912ACB2D0C4005000A93CC;
+			productRefGroup = EF912AD52D0C4005000A93CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF912AD32D0C4005000A93CC /* chefify ai */,
+				EF912AE32D0C4006000A93CC /* chefify aiTests */,
+				EF912AED2D0C4006000A93CC /* chefify aiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF912AD22D0C4005000A93CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF912ADF2D0C4006000A93CC /* Preview Assets.xcassets in Resources */,
+				EF912ADC2D0C4006000A93CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF912AE22D0C4006000A93CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF912AEC2D0C4006000A93CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF912AD02D0C4005000A93CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF912AD82D0C4005000A93CC /* chefify_aiApp.swift in Sources */,
+				EF912B182D0C4EE2000A93CC /* ImageSearchViewmodel.swift in Sources */,
+				EF912B042D0C41AE000A93CC /* APIService.swift in Sources */,
+				EF912B1C2D0C4FFA000A93CC /* ImageData.swift in Sources */,
+				EF912B202D0C5FFD000A93CC /* ResultScreen.swift in Sources */,
+				EF912B1A2D0C4EF9000A93CC /* ImageSearvhView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF912AE02D0C4006000A93CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF912AE92D0C4006000A93CC /* chefify_aiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF912AEA2D0C4006000A93CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF912AF32D0C4006000A93CC /* chefify_aiUITests.swift in Sources */,
+				EF912AF52D0C4006000A93CC /* chefify_aiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF912AE62D0C4006000A93CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF912AD32D0C4005000A93CC /* chefify ai */;
+			targetProxy = EF912AE52D0C4006000A93CC /* PBXContainerItemProxy */;
+		};
+		EF912AF02D0C4006000A93CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF912AD32D0C4005000A93CC /* chefify ai */;
+			targetProxy = EF912AEF2D0C4006000A93CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF912AF62D0C4006000A93CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF912AF72D0C4006000A93CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF912AF92D0C4006000A93CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chefify ai/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catfacts.chefify-ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF912AFA2D0C4006000A93CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chefify ai/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catfacts.chefify-ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF912AFC2D0C4006000A93CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catfacts.chefify-aiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chefify ai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chefify ai";
+			};
+			name = Debug;
+		};
+		EF912AFD2D0C4006000A93CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catfacts.chefify-aiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chefify ai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chefify ai";
+			};
+			name = Release;
+		};
+		EF912AFF2D0C4006000A93CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catfacts.chefify-aiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "chefify ai";
+			};
+			name = Debug;
+		};
+		EF912B002D0C4006000A93CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.catfacts.chefify-aiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "chefify ai";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF912ACF2D0C4005000A93CC /* Build configuration list for PBXProject "chefify ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF912AF62D0C4006000A93CC /* Debug */,
+				EF912AF72D0C4006000A93CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF912AF82D0C4006000A93CC /* Build configuration list for PBXNativeTarget "chefify ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF912AF92D0C4006000A93CC /* Debug */,
+				EF912AFA2D0C4006000A93CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF912AFB2D0C4006000A93CC /* Build configuration list for PBXNativeTarget "chefify aiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF912AFC2D0C4006000A93CC /* Debug */,
+				EF912AFD2D0C4006000A93CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF912AFE2D0C4006000A93CC /* Build configuration list for PBXNativeTarget "chefify aiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF912AFF2D0C4006000A93CC /* Debug */,
+				EF912B002D0C4006000A93CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF912ACC2D0C4005000A93CC /* Project object */;
+}
